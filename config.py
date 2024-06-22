@@ -7,6 +7,8 @@ import re
 import os
 from os import getenv, environ
 from Script import script 
+from pymongo import MongoClient
+import ssl
 from dotenv import load_dotenv
 
 load_dotenv()
